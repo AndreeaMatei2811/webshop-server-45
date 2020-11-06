@@ -5,122 +5,112 @@ module.exports = {
     return await queryInterface.bulkInsert("products", [
       {
         name: "Skinny",
-        imageUrl:
-          "https://images-na.ssl-images-amazon.com/images/I/51uQP2RnOpL._SX313_BO1,204,203,200_.jpg",
+        imageUrl: "skinny jeans image",
         categoryId: 1,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Relaxed",
-        imageUrl: "https://media.s-bol.com/YkZNzLv2KPW/823x1200.jpg",
+        imageUrl: "relaxed jeans image",
         categoryId: 1,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Regular",
-        imageUrl: "https://media.s-bol.com/xOgq196O1or/547x840.jpg",
+        imageUrl: "regular jeans image",
         categoryId: 1,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Joggers",
-        imageUrl: "https://media.s-bol.com/xOgq196O1or/547x840.jpg",
+        imageUrl: "pants image",
         categoryId: 2,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Cargo trousers",
-        imageUrl:
-          "https://cdn.waterstones.com/bookjackets/large/9781/5098/9781509848515.jpg",
+        imageUrl: "other pants image",
         categoryId: 2,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Chinos",
-        imageUrl:
-          "https://images-na.ssl-images-amazon.com/images/I/511zpwfEm1L._SX326_BO1,204,203,200_.jpg",
+        imageUrl: "chinos pants image",
         categoryId: 2,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Basic",
-        imageUrl:
-          "https://i.pinimg.com/originals/f3/48/bd/f348bd3949807e924291eddf033f1a24.jpg",
+        imageUrl: "tshirt basic image",
         categoryId: 3,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Print",
-        imageUrl:
-          "https://cdn.waterstones.com/bookjackets/large/9781/5098/9781509848515.jpg",
+        imageUrl: "tshirt print image",
         categoryId: 3,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Long sleeves",
-        imageUrl: "https://media.s-bol.com/YkZNzLv2KPW/823x1200.jpg",
+        imageUrl: "tshirt long sleve image",
         categoryId: 4,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Short sleeves",
-        imageUrl: "https://media.s-bol.com/xOgq196O1or/547x840.jpg",
+        imageUrl: "tshirt short sleeve image",
         categoryId: 4,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Denim jacket",
-        imageUrl:
-          "https://images-na.ssl-images-amazon.com/images/I/511zpwfEm1L._SX326_BO1,204,203,200_.jpg",
+        imageUrl: "Denim jacket image",
         categoryId: 5,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Bomber jacket",
-        imageUrl: "https://media.s-bol.com/xOgq196O1or/547x840.jpg",
+        imageUrl: "Bomber jacket image",
         categoryId: 5,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Parka",
-        imageUrl:
-          "https://i.pinimg.com/originals/f3/48/bd/f348bd3949807e924291eddf033f1a24.jpg",
+        imageUrl: "parka image",
         categoryId: 5,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Trainers",
-        imageUrl:
-          "https://i.pinimg.com/originals/f3/48/bd/f348bd3949807e924291eddf033f1a24.jpg",
+        imageUrl: "trainers image",
         categoryId: 6,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Sneakers",
-        imageUrl:
-          "https://cdn.waterstones.com/bookjackets/large/9781/5098/9781509848515.jpg",
+        imageUrl: "sneakers image",
         categoryId: 6,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Boots",
-        imageUrl:
-          "https://images-na.ssl-images-amazon.com/images/I/511zpwfEm1L._SX326_BO1,204,203,200_.jpg",
+        imageUrl: "boots image",
         categoryId: 6,
         createdAt: new Date(),
         updatedAt: new Date(),

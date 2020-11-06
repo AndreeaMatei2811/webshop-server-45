@@ -6,6 +6,15 @@ const router = new Router();
 
 router.get("/", async (req, res, next) => {
   try {
+    const products = await Product.findAll();
+    res.json({ products });
+  } catch (e) {
+    next(e);
+  }
+});
+
+router.get("/categories", async (req, res, next) => {
+  try {
     const categories = await Category.findAll({
       include: [Product],
     });
